@@ -34,7 +34,7 @@ function TelaLogin({ onLogin, irParaCadastro, mostrarMensagem }) {
             onKeyDown={e => e.key === 'Enter' && fazerLogin()}
           />
           <button className="btn-primary" onClick={fazerLogin}>
-            ENTRAR <span className="seta">›</span>
+            ENTRAR
           </button>
           <div className="divisor-pequeno"><span>OU</span></div>
           <button className="btn-secondary" onClick={irParaCadastro}>

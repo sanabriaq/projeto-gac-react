@@ -77,7 +77,7 @@ function TelaCadastro({ onCadastro, voltar, mostrarMensagem }) {
           <button className="btn-ghost" onClick={voltar}>
             VOLTAR AO LOGIN
           </button>
-        </div>
+        </div>                                                             
       </div>
     </div>
   )

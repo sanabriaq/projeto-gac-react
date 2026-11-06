@@ -46,7 +46,7 @@ function App() {
 
       {toast.visivel && (
         <div className={`toast ${toast.tipo}`}>
-          {toast.tipo === 'sucesso' ? '✓ ' : '✕ '}{toast.texto}
+          {toast.tipo === 'sucesso' ? ' ' : '✕ '}{toast.texto}
         </div>
       )}
 
@@ -97,4 +97,4 @@ function App() {
   )
 }
 
-export default App
+export default App    
