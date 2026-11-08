@@ -97,7 +97,7 @@ body {
 
 .form { display: flex; flex-direction: column; }
 .label {
-  font-size: 12px; letter-spacing: 2px; font-weight: 700;
+  font-size: 14px; letter-spacing: 2px; font-weight: 700;
   color: #fff; margin-bottom: 6px; margin-top: 14px;
 }
 .input, .select {
